@@ -1,12 +1,22 @@
-# React + Vite
+# Tourism Management System (Client)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application for travelers to explore Bangladesh, book tours, and share stories.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design for mobile, tablet, and desktop
+- Authentication with Firebase (email/password, Google)
+- Role-based dashboards (Tourist, Tour Guide, Admin)
+- Package booking with Stripe payment
+- Story sharing with react-share
+- Random data display using MongoDB $sample
+- Toast notifications for CRUD operations
+- Pagination for tables
+- Framer Motion for animations
+- Tanstack Query for data fetching
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Admin Credentials
+- Email: admin@tourism.com
+- Password: Admin123!
+- Live Site: [Insert Live URL]
+- Client Repo: [Insert GitHub URL]
+- Server Repo: [Insert GitHub URL]
