@@ -44,12 +44,12 @@ function ManageStories() {
           <div key={story._id} className="border rounded-lg shadow-md p-4">
             <StoryCard story={story} onShare={() => {}} />
             <div className="mt-2 flex space-x-2">
-              <Link
+              {/* <Link
                 to={`/dashboard/edit-story/${story._id}`}
                 className="bg-blue-600 text-white px-4 py-2 rounded"
               >
                 Edit
-              </Link>
+              </Link> */}
               <button
                 onClick={() => handleDelete(story._id)}
                 className="bg-red-600 text-white px-4 py-2 rounded"
