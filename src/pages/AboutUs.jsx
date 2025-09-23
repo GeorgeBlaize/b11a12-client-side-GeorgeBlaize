@@ -5,7 +5,7 @@ function AboutUs() {
       <div className="mt-8 max-w-2xl mx-auto">
         <h3 className="text-xl font-bold">About the Developer</h3>
         <p>
-          Hi, I'm [Your Name], a passionate web developer with a love for creating user-friendly applications. I specialize in building responsive, modern web platforms using React, Node.js, and MongoDB.
+          Hi, I'm Jonathan George Blaize Purification, a passionate web developer with a love for creating user-friendly applications. I specialize in building responsive, modern web platforms using React, Node.js, and MongoDB.
         </p>
         <h3 className="text-xl font-bold mt-4">Projects</h3>
         <ul className="list-disc ml-6">
