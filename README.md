@@ -18,5 +18,5 @@ A responsive web application for travelers to explore Bangladesh, book tours, an
 - Email: admin@tourism.com
 - Password: Admin123!
 - Live Site: [Insert Live URL]
-- Client Repo: [Insert GitHub URL]
+- Client Repo: https://github.com/GeorgeBlaize/b11a12-client-side-GeorgeBlaize
 - Server Repo: [Insert GitHub URL]
