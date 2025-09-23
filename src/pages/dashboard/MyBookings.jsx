@@ -1,4 +1,3 @@
-// src/pages/dashboard/MyBookings.jsx
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { useState, useContext } from 'react';
