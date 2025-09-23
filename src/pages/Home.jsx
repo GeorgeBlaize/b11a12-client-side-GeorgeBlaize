@@ -15,6 +15,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
+
 function Home() {
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
@@ -64,7 +65,8 @@ function Home() {
           <SwiperSlide>
             <div
               className="h-96 bg-cover bg-center flex items-center justify-center"
-              style={{ backgroundImage: 'url(/images/db.png)' }}
+              style={{ backgroundImage: "url('https://i.ibb.co/3m8vpxKY/yourImageName.png')" }}
+              
             >
               <h1 className="text-4xl text-white font-bold bg-black bg-opacity-50 p-4">
                 Discover Bangladesh
