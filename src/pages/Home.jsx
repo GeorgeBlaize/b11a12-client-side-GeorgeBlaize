@@ -65,7 +65,7 @@ function Home() {
           <SwiperSlide>
             <div
               className="h-96 bg-cover bg-center flex items-center justify-center"
-              style={{ backgroundImage: "url('https://i.ibb.co/3m8vpxKY/yourImageName.png')" }}
+              style={{ backgroundImage: "url('https://ibb.co.com/7JwHz3Dz')" }}
               
             >
               <h1 className="text-4xl text-white font-bold bg-black bg-opacity-50 p-4">
