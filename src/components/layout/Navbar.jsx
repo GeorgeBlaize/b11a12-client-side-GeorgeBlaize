@@ -17,16 +17,16 @@ function Navbar() {
     <Disclosure as="nav" className="bg-blue-600">
       {({ open }) => (
         <>
-          {/* Top Bar */}
+          
           <div className="container mx-auto px-4">
             <div className="flex justify-between items-center h-16">
-              {/* Logo */}
+            
               <Link to="/" className="flex items-center text-white text-xl font-bold">
                 <img src="/logo.png" alt="Logo" className="h-8 mr-2" />
                 Tourism Guide
               </Link>
 
-              {/* Desktop Links */}
+              
               <div className="hidden md:flex space-x-6">
                 <Link to="/" className="text-white hover:underline">Home</Link>
                 <Link to="/community" className="text-white hover:underline">Community</Link>
@@ -96,7 +96,7 @@ function Navbar() {
                 )}
               </div>
 
-              {/* Mobile Hamburger */}
+              
               <div className="md:hidden">
                 <Disclosure.Button className="text-white focus:outline-none">
                   {open ? (
@@ -109,7 +109,7 @@ function Navbar() {
             </div>
           </div>
 
-          {/* Mobile Panel */}
+          
           <Disclosure.Panel className="md:hidden bg-blue-700">
             <div className="px-4 pt-2 pb-4 space-y-2">
               <Link to="/" className="block text-white hover:underline">
