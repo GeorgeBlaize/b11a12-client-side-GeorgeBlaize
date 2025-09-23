@@ -76,7 +76,7 @@ function Home() {
           <SwiperSlide>
             <div
               className="h-96 bg-cover bg-center flex items-center justify-center"
-              style={{ backgroundImage: 'url(/assets/images/banner2.jpg)' }}
+              style={{ backgroundImage: "url('https://ibb.co.com/JRFMwD37.png')" }}
             >
               <h1 className="text-4xl text-white font-bold bg-black bg-opacity-50 p-4">
                 Adventure Awaits
@@ -93,10 +93,21 @@ function Home() {
           Explore the vibrant culture, stunning landscapes, and rich history of Bangladesh with our curated travel packages and expert guides.
         </p>
         <div className="mt-4">
-          <video controls className="w-full max-w-2xl mx-auto rounded">
+          {/* <video controls className="w-full max-w-2xl mx-auto rounded">
             <source src="/path-to-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
+          <iframe
+  className="w-full max-w-2xl mx-auto rounded"
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/lpwbXDZsZDs"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
         </div>
       </section>
 
