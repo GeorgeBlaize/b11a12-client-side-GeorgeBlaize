@@ -65,7 +65,7 @@ function Home() {
           <SwiperSlide>
             <div
               className="h-96 bg-cover bg-center flex items-center justify-center"
-              style={{ backgroundImage: "url('https://ibb.co.com/7JwHz3Dz')" }}
+              style={{ backgroundImage: "url('https://i.ibb.co.com/zTrt5tBW/banner1.png')" }}
               
             >
               <h1 className="text-4xl text-white font-bold bg-black bg-opacity-50 p-4">
@@ -76,7 +76,7 @@ function Home() {
           <SwiperSlide>
             <div
               className="h-96 bg-cover bg-center flex items-center justify-center"
-              style={{ backgroundImage: "url('https://ibb.co.com/JRFMwD37.png')" }}
+              style={{ backgroundImage: "url('https://i.ibb.co.com/QvMSS36V/banner2.png')" }}
             >
               <h1 className="text-4xl text-white font-bold bg-black bg-opacity-50 p-4">
                 Adventure Awaits
