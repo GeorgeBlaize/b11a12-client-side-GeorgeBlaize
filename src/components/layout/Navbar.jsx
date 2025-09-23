@@ -38,7 +38,7 @@ function Navbar() {
                     <Link to="/register" className="text-white hover:underline">Register</Link>
                   </>
                 ) : (
-                  <Menu as="div" className="relative">
+                  <Menu as="div" className="relative z-50">
                     <Menu.Button>
                       <img
                         src={user.photoURL}

@@ -43,6 +43,7 @@ function App() {
         <Route path="manage-stories" element={<ManageStories />} />
         <Route path="add-story" element={<AddStory />} />
         <Route path="join-tour-guide" element={<JoinTourGuide />} />
+        
       </Route>
       <Route path="/tour-guide-dashboard" element={<PrivateRoute element={<TourGuideDashboard />} />}>
         <Route path="manage-profile" element={<ManageProfile />} />

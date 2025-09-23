@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 
 function PackageCard({ pkg }) {
+  console.log(pkg);
   return (
     <div className="border rounded-lg shadow-md p-4">
-      <img src={pkg.image} alt={pkg.title} className="w-full h-48 object-cover rounded" />
+      <img src={pkg.images[0]} alt={pkg.title} className="w-full h-48 object-cover rounded" />
       <h3 className="text-xl font-bold mt-2">{pkg.title}</h3>
       <p>{pkg.tourType}</p>
       <p className="text-green-600 font-bold">${pkg.price}</p>
