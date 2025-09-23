@@ -12,36 +12,36 @@ function AddPackage() {
   const [images, setImages] = useState([]);
   const [tourPlan, setTourPlan] = useState(['']);
 
-  // Handle multiple image uploads
+  
   const handleImageChange = (e) => {
     const files = Array.from(e.target.files);
     const imageUrls = files.map((file) => URL.createObjectURL(file));
     setImages((prev) => [...prev, ...imageUrls]);
   };
 
-  // Remove an image from the list
+  
   const handleRemoveImage = (index) => {
     setImages((prev) => prev.filter((_, i) => i !== index));
   };
 
-  // Update tour plan field at specific index
+  
   const handleTourPlanChange = (index, value) => {
     const newPlan = [...tourPlan];
     newPlan[index] = value;
     setTourPlan(newPlan);
   };
 
-  // Add a new tour plan field
+  
   const addTourPlanField = () => {
     setTourPlan([...tourPlan, '']);
   };
 
-  // Remove a tour plan field
+  
   const removeTourPlanField = (index) => {
     setTourPlan((prev) => prev.filter((_, i) => i !== index));
   };
 
-  // Handle form submission
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
