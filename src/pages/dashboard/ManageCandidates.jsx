@@ -10,7 +10,7 @@ function ManageCandidates() {
   const [page, setPage] = useState(1);
   const limit = 10;
 
-  // Fetch candidates with pagination
+  
   const { data: candidates = [], refetch } = useQuery({
     queryKey: ['candidates', page],
     queryFn: async () => {
@@ -22,17 +22,17 @@ function ManageCandidates() {
     },
   });
 
-  // Handle approving a candidate (changes user role to tour-guide)
+  
   const handleApprove = async (candidate) => {
     if (window.confirm(`Are you sure you want to approve ${candidate.applicantName} as a tour guide?`)) {
       try {
-        // Update user role to tour-guide
+       
         await axios.patch(
           `${import.meta.env.VITE_API_URL}/users/${candidate.applicantEmail}`,
           { role: 'tour-guide' },
           { headers: { Authorization: `Bearer ${localStorage.getItem('token')}` } }
         );
-        // Update candidate status to approved
+      
         await axios.patch(
           `${import.meta.env.VITE_API_URL}/candidates/${candidate._id}`,
           { status: 'approved' },
@@ -46,7 +46,7 @@ function ManageCandidates() {
     }
   };
 
-  // Handle rejecting a candidate
+  
   const handleReject = async (candidateId) => {
     if (window.confirm('Are you sure you want to reject this candidate?')) {
       try {
@@ -63,7 +63,7 @@ function ManageCandidates() {
     }
   };
 
-  // Handle deleting a candidate
+  
   const handleDelete = async (candidateId) => {
     if (window.confirm('Are you sure you want to delete this candidate application?')) {
       try {
