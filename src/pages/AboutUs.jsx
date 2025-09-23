@@ -17,7 +17,7 @@ function AboutUs() {
         <div className="flex space-x-4">
           <a href="https://github.com/GeorgeBlaize" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a>
           <a href="https://www.linkedin.com/in/jonathan-george-blaize-purification-5780341b2/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LinkedIn</a>
-          <a href="https://twitter.com/developer" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Twitter</a>
+          <a href="https://x.com/jgbpurification" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Twitter</a>
         </div>
       </div>
     </div>
