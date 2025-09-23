@@ -54,7 +54,7 @@ function Home() {
 
   return (
     <div className="container mx-auto py-8">
-      {/* Banner Section */}
+     
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -84,7 +84,7 @@ function Home() {
         </Swiper>
       </motion.div>
 
-      {/* Overview Section */}
+      
       <section className="my-8">
         <h2 className="text-3xl font-bold text-center">Welcome to Tourism Guide</h2>
         <p className="text-center mt-4 max-w-2xl mx-auto">
@@ -98,7 +98,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Tourism and Travel Guide Section */}
+      
       <Tabs>
         <TabList className="flex space-x-4 justify-center mb-4">
           <Tab className="px-4 py-2 cursor-pointer bg-blue-600 text-white rounded">Our Packages</Tab>
@@ -120,7 +120,7 @@ function Home() {
         </TabPanel>
       </Tabs>
 
-      {/* Tourist Story Section */}
+      
       <section className="my-8">
         <h2 className="text-3xl font-bold text-center">Tourist Stories</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
@@ -135,7 +135,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Additional Sections */}
+      
       <section className="my-8">
         <h2 className="text-3xl font-bold text-center">Why Choose Us?</h2>
         <p className="text-center mt-4 max-w-2xl mx-auto">
