@@ -10,7 +10,7 @@ function ManageUsers() {
   const [page, setPage] = useState(1);
   const limit = 10;
 
-  // Fetch users with pagination
+  
   const { data: users = [], refetch } = useQuery({
     queryKey: ['users', page],
     queryFn: async () => {
@@ -22,7 +22,7 @@ function ManageUsers() {
     },
   });
 
-  // Handle role update
+  
   const handleUpdateRole = async (email, newRole) => {
     if (window.confirm(`Are you sure you want to change this user's role to ${newRole}?`)) {
       try {
@@ -39,7 +39,7 @@ function ManageUsers() {
     }
   };
 
-  // Handle user deletion
+ 
   const handleDelete = async (email) => {
     if (window.confirm('Are you sure you want to delete this user?')) {
       try {
