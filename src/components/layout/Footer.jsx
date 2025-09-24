@@ -18,7 +18,7 @@ function Footer() {
           <h3 className="text-lg font-bold mb-2">Connect with Us</h3>
           <div className="flex justify-center md:justify-start space-x-6">
             <a
-              href="https://github.com/developer"
+              href="https://github.com/GeorgeBlaize"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
@@ -26,7 +26,7 @@ function Footer() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/developer"
+              href="https://www.linkedin.com/in/jonathan-george-blaize-purification-5780341b2/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
@@ -34,7 +34,7 @@ function Footer() {
               LinkedIn
             </a>
             <a
-              href="https://twitter.com/developer"
+              href="https://x.com/jgbpurification"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"
