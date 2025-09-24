@@ -7,7 +7,7 @@ function Footer() {
         
         {/* Left Section */}
         <div>
-          <img src="/logo.png" alt="Logo" className="h-12 mx-auto md:mx-0 mb-4" />
+          <img src="https://i.ibb.co.com/RGWQD2yp/logo.png" alt="Logo" className="h-12 mx-auto md:mx-0 mb-4" />
           <p className="text-sm md:text-base">
             Tourism Guide – Your gateway to exploring Bangladesh!
           </p>
