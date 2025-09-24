@@ -35,7 +35,7 @@ function Sidebar({ role }) {
   return (
     <div className="bg-gray-900 text-white w-64 min-h-screen p-4 md:block hidden">
       <div className="mb-8">
-        <img src="/logo.png" alt="Logo" className="h-12" />
+        <img src="https://i.ibb.co.com/RGWQD2yp/logo.png" alt="Logo" className="h-12" />
       </div>
       <ul>
         {links.map((link) => (
