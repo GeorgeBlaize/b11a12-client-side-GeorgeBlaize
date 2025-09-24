@@ -22,7 +22,7 @@ function Navbar() {
             <div className="flex justify-between items-center h-16">
             
               <Link to="/" className="flex items-center text-white text-xl font-bold">
-                <img src="/logo.png" alt="Logo" className="h-8 mr-2" />
+                <img src="https://i.ibb.co.com/RGWQD2yp/logo.png" alt="Logo" className="h-8 mr-2" />
                 Tourism Guide
               </Link>
 
